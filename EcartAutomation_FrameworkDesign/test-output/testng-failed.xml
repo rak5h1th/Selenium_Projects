@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Error Validation(failed)">
+    <groups>
+      <run>
+        <include name="ErrorValidation"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="practiceProject.frameworkDesign.errorValidation">
+        <methods>
+          <include name="teardown"/>
+          <include name="errorValid"/>
+          <include name="producValid"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- practiceProject.frameworkDesign.errorValidation -->
+    </classes>
+  </test> <!-- Error Validation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

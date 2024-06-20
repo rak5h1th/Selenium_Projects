@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-20T10:53:57 IST" name="Suite" finished-at="2024-06-20T10:55:35 IST" duration-ms="98521">
+    <groups>
+      <group name="ErrorValidation">
+        <method signature="errorValidation.errorValid()[pri:0, instance:practiceProject.frameworkDesign.errorValidation@2dfaea86]" name="errorValid" class="practiceProject.frameworkDesign.errorValidation"/>
+        <method signature="errorValidation.producValid()[pri:0, instance:practiceProject.frameworkDesign.errorValidation@2dfaea86]" name="producValid" class="practiceProject.frameworkDesign.errorValidation"/>
+      </group> <!-- ErrorValidation -->
+      <group name="PurchaseOrder">
+        <method signature="SubmitOrder.submitOrder(java.util.HashMap)[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" name="submitOrder" class="practiceProject.frameworkDesign.SubmitOrder"/>
+        <method signature="SubmitOrder.orderConfirmation(java.util.HashMap)[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" name="orderConfirmation" class="practiceProject.frameworkDesign.SubmitOrder"/>
+      </group> <!-- PurchaseOrder -->
+    </groups>
+    <test started-at="2024-06-20T10:53:57 IST" name="StandAloneTest" finished-at="2024-06-20T10:55:35 IST" duration-ms="98521">
+      <class name="practiceProject.frameworkDesign.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:53:57 IST" name="launchApplication" finished-at="2024-06-20T10:54:26 IST" duration-ms="29638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:54:26 IST" name="submitOrder" data-provider="getdata" finished-at="2024-06-20T10:54:53 IST" duration-ms="26119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pro=ZARA COAT 3, password=Admin@123, email=raxith@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:54:53 IST" name="teardown" finished-at="2024-06-20T10:54:53 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:54:53 IST" name="launchApplication" finished-at="2024-06-20T10:54:57 IST" duration-ms="4366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:54:57 IST" name="submitOrder" data-provider="getdata" finished-at="2024-06-20T10:55:22 IST" duration-ms="25236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pro=ZARA COAT 3, password=Admin@123, email=raxith@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:55:22 IST" name="teardown" finished-at="2024-06-20T10:55:22 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:55:23 IST" name="launchApplication" finished-at="2024-06-20T10:55:27 IST" duration-ms="4871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderConfirmation(java.util.HashMap)[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:55:27 IST" name="orderConfirmation" data-provider="getdata" finished-at="2024-06-20T10:55:29 IST" depends-on-methods="practiceProject.frameworkDesign.SubmitOrder.submitOrder" duration-ms="1550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pro=ZARA COAT 3, password=Admin@123, email=raxith@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderConfirmation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:55:29 IST" name="teardown" finished-at="2024-06-20T10:55:29 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:55:29 IST" name="launchApplication" finished-at="2024-06-20T10:55:34 IST" duration-ms="4562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderConfirmation(java.util.HashMap)[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:55:34 IST" name="orderConfirmation" data-provider="getdata" finished-at="2024-06-20T10:55:35 IST" depends-on-methods="practiceProject.frameworkDesign.SubmitOrder.submitOrder" duration-ms="1495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pro=ZARA COAT 3, password=Admin@123, email=raxith@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderConfirmation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:practiceProject.frameworkDesign.SubmitOrder@909217e]" started-at="2024-06-20T10:55:35 IST" name="teardown" finished-at="2024-06-20T10:55:35 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- practiceProject.frameworkDesign.SubmitOrder -->
+    </test> <!-- StandAloneTest -->
+  </suite> <!-- Suite -->
+</testng-results>
